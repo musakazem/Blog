@@ -1,4 +1,4 @@
-@media only screen and (max-width: 3000px) {
+
 
 	body{
 		background-image: url(http://creativitywindow.com/wp-content/uploads/2012/06/Crumpled-paper-background.jpg);
@@ -99,7 +99,8 @@
 	footer{
 		margin: 5em 13em;
 	}
-}
+
+
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
