@@ -100,7 +100,10 @@
 		margin: 5em 13em;
 	}
 }
-@media screen and (max-height: 450px) {
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3)  {
 
     .sidenav {
     	padding-top: 15px;
