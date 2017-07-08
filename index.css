@@ -1,14 +1,15 @@
 
-@media print{
-	body{
-		background-image: url(http://creativitywindow.com/wp-content/uploads/2012/06/Crumpled-paper-background.jpg);
-	}
+@media only screen and (max-width: 3000px) {
 
-	/*--------------
-	Side Bar
-	--------------*/
+    body{
+        background-image: url(http://creativitywindow.com/wp-content/uploads/2012/06/Crumpled-paper-background.jpg);
+    }
 
-	/* The side navigation menu */
+    /*--------------
+    Side Bar
+    --------------*/
+
+    /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -65,74 +66,68 @@
     font-size: 36px;
     margin-left: 50px;
 }
-		
+        
 
-	.header{
-		margin-left: 13em;
-		margin-bottom: 5em;
-		font-family: 'Croissant One'
-	}
+    .header{
+        margin-left: 13em;
+        margin-bottom: 5em;
+        font-family: 'Croissant One'
+    }
 
-	.blog-info {
-		font-size: 11pt;
-		margin: 2em 13em;
-	}
+    .blog-info {
+        font-size: 11pt;
+        margin: 2em 13em;
+    }
 
-	.edit{
-		margin: 0em 13em;
-		padding: 2.5em;
-		border-style: solid;
-		border-radius: 20px;
-		background-color: #FAFAD2;
-		overflow-x: hidden;
-	}
-	.edit p{
-		font-size: 18pt;
-		font-family: 'Ubuntu';
-	}
+    .edit{
+        margin: 0em 13em;
+        padding: 2.5em;
+        border-style: solid;
+        border-radius: 20px;
+        background-color: #FAFAD2;
+        overflow-x: hidden;
+    }
+    .edit p{
+        font-size: 18pt;
+        font-family: 'Ubuntu';
+    }
 
-	.edit h3{
-		text-align: center;
-		margin: 2em;
-	}
+    .edit h3{
+        text-align: center;
+        margin: 2em;
+    }
 
-	footer{
-		margin: 5em 13em;
-	}
+    footer{
+        margin: 5em 13em;
+    }
 }
-
 @media screen 
   and (device-width: 360px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3)  {
 
     .sidenav {
-    	padding-top: 15px;
+        padding-top: 15px;
     }
     .sidenav a {
-    	font-size: 18px;
+        font-size: 18px;
     }
 
-}
-
-/* portrait and landscape */
-@media screen and (min-device-width : 320px) 
-and (max-device-width : 480px)  {
-    .edit{
-        margin: 0;
+    .header{
+        margin-left: 2em;
+        margin-bottom: 2em;
     }
-}
 
-/*  landscape  */
-@media screen and (min-width : 321px)  { 
-    .edit{
-        margin: 0;
+    .blog-info{
+        margin: 2em 2em;
     }
- }
 
-/*  portrait */
-@media screen and (max-width : 320px)  {
     .edit{
         margin: 0;
+        padding: 10px;
+    }
+
+    .edit h3{
+        margin: 2em;
     }
 }
