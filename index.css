@@ -102,6 +102,11 @@
         text-align: right;
         margin-top: 2em;
     }
+
+    .logos{
+        text-align: center;
+        margin: 20px;
+    }
 }
 @media screen 
   and (device-width: 360px) 
