@@ -129,4 +129,35 @@
     .edit h3{
     	margin: 2em;
     }
+
+    @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+
+    .header{
+        margin-left: 2em;
+        margin-bottom: 2em;
+    }
+
+    .blog-info{
+        margin: 2em 2em;
+    }
+
+    .edit{
+        margin: 0;
+        padding: 10px;
+    }
+
+    .edit h3{
+        margin: 2em;
+    }
+  }
 }
