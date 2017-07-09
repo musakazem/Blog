@@ -107,8 +107,10 @@
     .thumb_pin{
         height: auto;
         width: 25px;
+        position: relative;
+        left: 50%;
 
-    .footer{
+    .footer {
         text-align: right;
         margin-top: 2em;
     }
