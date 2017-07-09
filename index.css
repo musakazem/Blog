@@ -99,6 +99,14 @@
         text-align: center;
         margin: 2em;
     }
+    
+    .thumb_pin2{
+        display: hidden;
+    }
+    
+    .thumb_pin{
+        height: auto;
+        width: 25px;
 
     .footer{
         text-align: right;
