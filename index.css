@@ -79,10 +79,12 @@
         margin: 2em 0em;
     }
 
+
+
     .edit{
         margin: 0em 0em;
         padding: 5px;
-        border-style: solid;
+        border-style: ridge;
         border-width: 1px;
         border-radius: 20px;
         background-color: #FAFAD2;
@@ -131,6 +133,23 @@
     }
     .edit p{
         font-size: 18pt;
+    }
+
+    .thumb_pin{
+        height: auto;
+        width: 25px;
+        position: relative;
+        left: 7px;
+        top: 9px;
+        
+    }
+
+    .thumb_pin2{
+        height: auto;
+        width: 25px;
+        position: relative;
+        top: 47em;
+        left: 64em;
     }
     
     .header{
