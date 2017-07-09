@@ -123,7 +123,19 @@
 
  /* big landscape tablets, laptops, and desktops */
 @media (min-width:1025px) {
+
+    .header{
+        margin: 2em 11em;
+    }
+
+    .blog-info{
+        margin: 2em 13em;
+    }
+
     .edit{
         margin: 2em 13em;
+    }
+    .edit p{
+        font-size: 18pt;
     }
  }
