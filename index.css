@@ -108,9 +108,10 @@
         height: auto;
         width: 25px;
         position: relative;
-        left: 13em;
+        left: 11.5em;
+    }
 
-    .footer {
+    .author {
         text-align: right;
         margin-top: 2em;
     }
