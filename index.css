@@ -34,14 +34,13 @@
 }
 
 .sidenav {
+    overflow: hidden;
     height: 100%;
-    width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
-    overflow-x: hidden;
+    background-image: url(images/menu_bg.jpg);
     transition: 0.5s;
     padding-top: 60px;
 }
@@ -65,13 +64,14 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    color: white;
 }
         
 
     .header{
         margin-left: 0em;
         margin-bottom: 4em;
-        font-family: 'Croissant One'
+        font-family: 'Croissant One';
     }
 
     .blog-info {
@@ -113,12 +113,15 @@
 
     .author {
         text-align: right;
-        margin-top: 2em;
+        margin-top: 4em;
     }
 
     .logos{
         text-align: center;
         margin: 20px;
+    }
+    .instagram, .facebook{
+        margin: 1.5em;
     }
 }
 @media screen 
@@ -144,7 +147,7 @@
         margin: 2em 13em;
     }
     .edit p{
-        font-size: 18pt;
+        font-size: 16pt;
     }
 
     .thumb_pin{
@@ -157,11 +160,12 @@
     }
 
     .thumb_pin2{
+        display: block;
         height: auto;
         width: 25px;
         position: relative;
-        top: 47em;
-        left: 64em;
+        top: -18px;
+        left: 67em;
     }
     
     .header{
@@ -170,5 +174,10 @@
 
     .blog-info{
         margin: 2em 13em;
+    }
+
+    .author p{
+        font-size: 100%;
+        font-weight: bold;
     }
  }
