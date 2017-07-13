@@ -124,18 +124,7 @@
         margin: 1.5em;
     }
 }
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3)  {
 
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
-}
 
  /* big landscape tablets, laptops, and desktops */
 @media (min-width:1025px) {
