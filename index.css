@@ -39,11 +39,10 @@
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 20px 8px 50px;
     text-decoration: none;
     font-size: 18pt;
     color: #c5cddb;
-    color: #818181;
     display: block;
     transition: 0.3s;
 }
@@ -127,7 +126,7 @@
     .sidenav{
         padding-top: 8em;
     }
-    
+
     
 
     .edit{
