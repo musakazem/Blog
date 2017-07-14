@@ -27,7 +27,7 @@
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18pt;
     color: #818181;
     display: block;
     transition: 0.3s
@@ -42,14 +42,14 @@
     left: 0;
     background-image: url(images/menu_bg.jpg);
     transition: 0.5s;
-    padding-top: 15px;
+    padding-top: 3em;
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 18px;
-    color: #818181;
+    font-size: 20pt;
+    color: #c5cddb;
     display: block;
     transition: 0.3s;
 }
@@ -108,7 +108,7 @@
         height: auto;
         width: 25px;
         position: relative;
-        left: 50%;
+        left: 11.5em;
     }
 
     .author {
@@ -124,23 +124,15 @@
         margin: 1.5em;
     }
 }
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3)  {
 
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
-}
 
  /* big landscape tablets, laptops, and desktops */
 @media (min-width:1025px) {
 
   
+    .sidenav{
+        padding-top: 8em;
+    }
     
 
     .edit{
