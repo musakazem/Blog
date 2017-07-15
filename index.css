@@ -107,6 +107,7 @@
     .author {
         text-align: right;
         margin-top: 4em;
+
     }
 
     .logos{
@@ -114,7 +115,15 @@
         margin: 20px;
     }
     .instagram, .facebook{
+        width: 50px;
+        height: auto;
         margin: 1.5em;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+    }
+    .instagram:hover, .facebook:hover{
+        width: 100px;
+        height: auto;
     }
 }
 
