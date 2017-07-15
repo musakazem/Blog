@@ -11,6 +11,8 @@ if($(window).width() > 720)
 	}
 
 	
+}
+	
 } else {
 
 		function openNav() {
@@ -22,3 +24,6 @@ if($(window).width() > 720)
 	}
 
 }
+
+
+
