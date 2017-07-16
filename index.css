@@ -129,11 +129,11 @@
         width: 200px;
         height: auto;
         position: relative;
+        left: 20%;
         border-radius: 50%;
 
     }
     .profile_pic{
-        text-align: center;
     }
     
 
