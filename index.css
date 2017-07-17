@@ -185,6 +185,7 @@ Content
         float: left;
         width: 70%;
         margin: 20px 5em;
+        margin-right: 0;
     }
     .edit p{
         font-size: 16pt;
@@ -224,6 +225,7 @@ Content
     .profile{
         overflow: hidden;
         float: left;
+        margin-left: 25px;
     }
 
     .logos{
