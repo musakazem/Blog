@@ -72,7 +72,9 @@
         margin: 2em 0em;
     }
 
-
+/*------------------
+Content
+------------------*/
 
     .edit{
         margin: 0em 0em;
@@ -85,6 +87,7 @@
     }
     .edit p{
         font-size: 12pt;
+        line-height: 35px;
         font-family: 'Ubuntu';
     }
 
