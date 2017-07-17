@@ -129,12 +129,20 @@
         width: 200px;
         height: auto;
         position: relative;
-        left: 20%;
         border-radius: 50%;
 
     }
-    .profile_pic{
+    .profile p{
+        text-align: center;
     }
+    .author_description{
+        text-align: center;
+    }
+    .author_description p{
+        text-align: left;
+    }
+    
+    
     
 
     /*-------------------
