@@ -122,6 +122,7 @@
         border-style: ridge;
         border-width: 1px;
         border-radius: 20px;
+        margin: 50px 0px;
 
     }
     .profile img{
@@ -141,7 +142,7 @@
     .author_description p{
         text-align: left;
     }
-    
+
     
     
 
