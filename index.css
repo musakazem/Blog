@@ -182,7 +182,9 @@ Content
     
 
     .edit{
-        margin: 2em 13em;
+        float: left;
+        width: 70%;
+        margin: 20px 5em;
     }
     .edit p{
         font-size: 16pt;
@@ -218,6 +220,16 @@ Content
         font-size: 100%;
         font-weight: bold;
     }
+
+    .profile{
+        overflow: hidden;
+        float: left;
+    }
+
+    .logos{
+        width: 300px;
+    }
+
     span{
         position: fixed;
     }
