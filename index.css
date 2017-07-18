@@ -172,7 +172,7 @@ Content
 
 
  /* big landscape tablets, laptops, and desktops */
-@media (min-width:1025px) {
+@media (min-width:800px){ 
 
   
     .sidenav{
@@ -183,7 +183,7 @@ Content
 
     .edit{
         float: left;
-        width: 70%;
+        width: 65%;
         margin: 20px 5em;
         margin-right: 0;
     }
@@ -224,6 +224,7 @@ Content
 
     .profile{
         overflow: hidden;
+        width: 20%;
         float: left;
         margin-left: 25px;
     }
