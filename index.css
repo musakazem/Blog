@@ -2,7 +2,8 @@
 @media only screen and (max-width: 3000px) {
 
     body{
-        background-image: url(http://creativitywindow.com/wp-content/uploads/2012/06/Crumpled-paper-background.jpg);
+        /*background-image: url(http://creativitywindow.com/wp-content/uploads/2012/06/Crumpled-paper-background.jpg);*/
+        background-color: #BB9457;
     }
 
       /*--------------
@@ -33,7 +34,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-image: url(images/menu_bg.jpg);
+    background-color: #2C4251;
     transition: 0.5s;
     padding-top: 8em;
 }
@@ -81,8 +82,8 @@ Content
         padding: 5px;
         border-style: ridge;
         border-width: 1px;
-        border-radius: 20px;
-        background-color: #FAFAD2;
+        border-radius: 10px;
+        background-color: #FFE6A7;
         overflow-x: hidden;
     }
     .edit p{
@@ -95,17 +96,7 @@ Content
         text-align: center;
         margin: 2em;
     }
-    
-    .thumb_pin2{
-        display: none;
-    }
-    
-    .thumb_pin{
-        height: auto;
-        width: 25px;
-        position: relative;
-        left: 50%;
-    }
+
 
     .author {
         text-align: right;
@@ -120,11 +111,11 @@ Content
 
     .profile{
 
-        background-color: #FAFAD2;
+        background-color: #FFE6A7;
         padding: 5px;
         border-style: ridge;
         border-width: 1px;
-        border-radius: 20px;
+        border-radius: 10px;
         margin: 50px 0px;
 
     }
@@ -155,21 +146,28 @@ Content
 
     .logos{
         text-align: center;
-        margin: 20px;
+        margin: 0;
+
     }
     .instagram, .facebook{
-        width: 50px;
+        width: 25px;
         height: auto;
-        margin: 1.5em;
+        margin: 1em;
         transition: 0.3s;
         -webkit-transition: 0.3s;
     }
     .instagram:hover, .facebook:hover{
-        width: 100px;
+        width: 50px;
         height: auto;
     }
 }
 
+
+.statcounter{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
 
  /* big landscape tablets, laptops, and desktops */
 @media (min-width:800px){ 
@@ -191,23 +189,7 @@ Content
         font-size: 16pt;
     }
 
-    .thumb_pin{
-        height: auto;
-        width: 25px;
-        position: relative;
-        left: 7px;
-        top: 9px;
-        
-    }
-
-    .thumb_pin2{
-        display: block;
-        height: auto;
-        width: 25px;
-        position: relative;
-        top: -18px;
-        left: 67em;
-    }
+    
     
     .header{
         margin: 2em 11em;
@@ -230,7 +212,10 @@ Content
     }
 
     .logos{
-        width: 300px;
+        float: right;
+        position: relative;
+        right: 13%;
+        bottom: 50px;
     }
 
     span{
