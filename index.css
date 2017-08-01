@@ -60,6 +60,13 @@
     margin-left: 50px;
     color: white;
 }
+
+hr{
+    size: 2;
+    width: 80%;
+    color: #c7c34c;
+    margin: 5px 5px;
+}
         
 
     .header{
