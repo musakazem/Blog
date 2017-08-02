@@ -196,9 +196,9 @@ Comment Section
 -----------------*/
 
 .comment_section{
-    width: 80%;
+    width: 100%;
     height: auto;
-    margin: 0em 0em;
+    margin: 50px 0px;
     padding: 5px;
     border-style: ridge;
     border-width: 1px;
