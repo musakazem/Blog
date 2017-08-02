@@ -207,13 +207,9 @@ Comment Section
     overflow-x: hidden;
 }
 
- .submit {
-    background:none; /* Clear twitter bootstrap style. */
-    background-color:green;
-    border:1px solid darkgreen;
-    color: white;
-  }
-
+#HCB_comment_box .comment_list .comment{
+    border-style: solid;
+}
 .statcounter{
     position: fixed;
     left: 0;
