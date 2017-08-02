@@ -207,7 +207,7 @@ Comment Section
     overflow-x: hidden;
 }
 
-.comment_section .comments_list .comment{
+div .comment{
     border-style: ridge;
 }
 .statcounter{
