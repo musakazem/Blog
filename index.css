@@ -198,6 +198,13 @@ Comment Section
 .comment_section{
     width: 80%;
     height: auto;
+    margin: 0em 0em;
+    padding: 5px;
+    border-style: ridge;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: #FFE6A7;
+    overflow-x: hidden;
 }
 
 
