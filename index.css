@@ -208,7 +208,7 @@ Comment Section
 }
 
 div .comment{
-    border-style: ridge;
+    border-bottom-style: ridge;
 }
 .statcounter{
     position: fixed;
