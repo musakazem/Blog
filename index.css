@@ -191,6 +191,15 @@ Content
     }
 }
 
+/*-----------------
+Comment Section
+-----------------*/
+
+.comment_section{
+    width: auto;
+    height: auto;
+}
+
 
 .statcounter{
     position: fixed;
