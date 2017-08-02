@@ -210,6 +210,13 @@ Comment Section
 div .comment{
     border-bottom-style: ridge;
 }
+
+div .hcb-comment-tb{
+    text-align: right;
+}
+blockquote{
+    border-left: hidden;
+}
 .statcounter{
     position: fixed;
     left: 0;
