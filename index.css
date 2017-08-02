@@ -61,6 +61,13 @@
     color: white;
 }
 
+.list{
+    height: 0;
+    overflow: hidden;
+    transition: 0.8s;
+
+}
+
 hr{
     size: 2;
     width: 80%;
