@@ -207,8 +207,8 @@ Comment Section
     overflow-x: hidden;
 }
 
-#comment_13216016{
-    border-style: solid;
+.comment_section .comments_list .comment{
+    border-style: ridge;
 }
 .statcounter{
     position: fixed;
