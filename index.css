@@ -263,6 +263,15 @@ Comment Section
         bottom: 50px;
     }
 
+    /*-------------------
+    comment section
+    -------------------*/
+
+    .comment_section{
+        margin: 20px 5em
+        width: 65%;
+    }
+
     span{
         position: fixed;
     }
