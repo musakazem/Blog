@@ -210,6 +210,15 @@ Comment Section
 div .comment{
     border-bottom-style: ridge;
 }
+div .comment:before{
+    content: "";
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+    height: 1px;
+    width: 75%;
+    border-bottom: 1px ridge;
+}
 
 div .hcb-comment-tb{
     text-align: right;
