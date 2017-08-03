@@ -208,12 +208,11 @@ Comment Section
 }
 
 div .comment{
-    margin: 10px 25px;
     border-style: solid;
     border-width: 1px;
     border-color: #FADF63;
     border-radius: 8px;
-    background-color: #FADF63;
+    background-color: #BB9457;
 }
 
 div .hcb-comment-tb{
@@ -284,6 +283,10 @@ blockquote{
     .comment_section{
         margin-left: 5em;
         width: 65%;
+    }
+
+    div .comment{
+        margin: 10px 25px;
     }
 
     span{
