@@ -208,16 +208,10 @@ Comment Section
 }
 
 div .comment{
-    border-bottom-style: ridge;
-}
-div .comment:before{
-    content: "";
-    position: absolute;
-    left: 50px;
-    bottom: 0;
-    height: 1px;
-    width: 75%;
-    border-bottom: 1px ridge;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E7EB90;
+    border-radius: 8px;
 }
 
 div .hcb-comment-tb{
