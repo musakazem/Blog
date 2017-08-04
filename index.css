@@ -175,8 +175,8 @@ Content
         margin: 0;
 
     }
-    .instagram, .facebook{
-        width: 25px;
+    .profile .logos .instagram, .profile .logos .facebook{
+        width: 15px;
         height: auto;
         margin: 1em;
         -moz-transition: 0.3s;
