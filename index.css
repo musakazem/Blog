@@ -230,12 +230,29 @@ blockquote{
  /* big landscape tablets, laptops, and desktops */
 @media (min-width:800px){ 
 
+/*-------------------
+SIDE NAV
+-------------------*/
   
     .sidenav{
         padding-top: 8em;
     }
 
-    
+    .sidenav a{
+        font-size: 14pt;
+    }
+
+    .list{
+        text-align: center;
+    }
+
+    hr{
+        width: 100%;
+    }
+
+    /*-----------------
+    Content
+    -----------------*/
 
     .edit{
         float: left;
