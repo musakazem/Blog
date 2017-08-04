@@ -46,9 +46,9 @@
 }
 
 .sidenav a {
-    padding: 8px 20px 8px 50px;
+    padding: 8px 0;
     text-decoration: none;
-    font-size: 18pt;
+    font-size: 14pt;
     color: #c5cddb;
     display: block;
     -webkit-transition: 0.3s;
@@ -239,10 +239,7 @@ SIDE NAV
     }
 
     .sidenav a{
-        font-size: 14pt;
-    }
-
-    .list{
+        font-size: 18pt;
         text-align: center;
     }
 
@@ -279,6 +276,10 @@ SIDE NAV
         font-weight: bold;
     }
 
+    /*-----------------
+    Profile
+    -----------------*/
+
     .profile{
         overflow: hidden;
         width: 20%;
@@ -286,11 +287,9 @@ SIDE NAV
         margin-left: 25px;
     }
 
-    .logos{
-        float: right;
-        position: relative;
-        right: 13%;
-        bottom: 50px;
+    .profile .logos .instagram ,.profile .logos .facebook{
+        height: 15px;
+        width: auto;
     }
 
     /*-------------------
