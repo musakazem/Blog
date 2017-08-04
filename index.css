@@ -83,7 +83,7 @@
 
 hr{
     size: 2;
-    width: 80%;
+    width: 100%;
     color: #c7c34c;
     margin: 5px 5px;
 }
@@ -242,10 +242,6 @@ SIDE NAV
     .sidenav a{
         font-size: 18pt;
         text-align: center;
-    }
-
-    hr{
-        width: 100%;
     }
 
     /*-----------------
