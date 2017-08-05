@@ -318,7 +318,7 @@ SIDE NAV
         padding: 20px;
     }
 
-    div .hcb-wrapper-half {
+    div .hcb-wrapper-half , div .commentbox {
         margin: 15px 25px;
     }
 
