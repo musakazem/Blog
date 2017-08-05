@@ -211,7 +211,7 @@ Comment Section
 div .comment{
     border-style: solid;
     border-width: 1px;
-    border-color: #FADF63;
+    border-color: #FEF2B7;
     border-radius: 8px;
     background-color: #FEF2B7;
 }
@@ -222,12 +222,27 @@ div .hcb-comment-tb{
 blockquote{
     border-left: hidden;
 }
+
+div .hcb-wrapper-half {
+    margin-top: 15px;
+}
+
+/*----------------
+Stat counter
+----------------*/
 .statcounter{
     position: fixed;
     left: 0;
     bottom: 0;
 }
+/*-------------------------------------------------------------------------------------------------
 
+
+
+
+
+
+-------------------------------------------------------------------------------------------------*/
  /* big landscape tablets, laptops, and desktops */
 @media (min-width:800px){ 
 
@@ -301,6 +316,14 @@ SIDE NAV
     div .comment{
         margin: 10px 25px;
         padding: 20px;
+    }
+
+    div .hcb-wrapper-half {
+        margin: 15px 25px;
+    }
+
+    div .submit {
+        margin: 0 25px;
     }
 
     span{
