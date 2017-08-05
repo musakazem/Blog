@@ -214,6 +214,8 @@ div .comment{
     border-color: #FEF2B7;
     border-radius: 8px;
     background-color: #FEF2B7;
+    padding: 3px;
+    margin: 8px 0px;
 }
 
 div .hcb-comment-tb{
