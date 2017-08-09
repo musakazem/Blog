@@ -267,8 +267,8 @@ SIDE NAV
 
     .edit{
         float: left;
-        width: 65%;
-        margin: 20px 5em;
+        width: 800px;
+        margin: 20px 8%;
         margin-right: 0;
     }
     .edit p{
@@ -296,7 +296,7 @@ SIDE NAV
 
     .profile{
         overflow: hidden;
-        width: 20%;
+        width: 280px;
         float: left;
         margin-left: 25px;
     }
@@ -311,8 +311,8 @@ SIDE NAV
     -------------------*/
 
     .comment_section{
-        margin-left: 5em;
-        width: 65%;
+        margin-left: 8%;
+        width: 800px;
     }
 
     div .comment{
