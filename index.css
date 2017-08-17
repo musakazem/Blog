@@ -3,7 +3,7 @@
 
     body{
         /*background-image: url(http://creativitywindow.com/wp-content/uploads/2012/06/Crumpled-paper-background.jpg);*/
-        background-color: #BB9457;
+        background-color: #B3BFB7;
     }
 
       /*--------------
@@ -37,7 +37,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #2C4251;
+    background-color: #585360;
     -webkit-transition:0.5s;
     -moz-transition: 0.5s;
     -o-transition: 0.5s;
@@ -110,7 +110,7 @@ Content
         border-style: ridge;
         border-width: 1px;
         border-radius: 10px;
-        background-color: #FFE6A7;
+        background-color: #E2E2DE;
         overflow-x: hidden;
     }
     .edit p{
@@ -138,7 +138,7 @@ Content
 
     .profile{
 
-        background-color: #FFE6A7;
+        background-color: #F0F2EF/* #FFE6A7*/;
         padding: 5px;
         border-style: ridge;
         border-width: 1px;
@@ -204,7 +204,7 @@ Comment Section
     border-style: ridge;
     border-width: 1px;
     border-radius: 10px;
-    background-color: #FFE6A7;
+    background-color: #E2E2DE;
     overflow-x: hidden;
 }
 
