@@ -190,6 +190,25 @@ Content
         width: 50px;
         height: auto;
     }
+
+    /*-----------------
+    Archives
+    -----------------*/
+
+    .archives{
+        background-color: #F0F2EF;
+        padding: 5px;
+        border-style: ridge;
+        border-width: 1px;
+        border-radius: 10px;
+        margin: 50px 0px;
+
+    }
+
+    .archives li{
+        list-style-type: none;
+        margin: 4px 0px;
+    }
 }
 
 /*-----------------
@@ -304,6 +323,16 @@ SIDE NAV
     .profile .logos .instagram ,.profile .logos .facebook{
         height: 15px;
         width: auto;
+    }
+   /* -----------------
+     Archives
+    -----------------*/
+
+    .archives{
+        overflow: hidden;
+        width: 280px;
+        float: left;
+        margin-left: 25px;
     }
 
     /*-------------------
